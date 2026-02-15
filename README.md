@@ -1,5 +1,9 @@
 # GearDex Public Repository
 
+<p align="center">
+  <img src="assets/geardex-logo.png" alt="GearDex logo" width="220" />
+</p>
+
 This repository is the public home for **GearDex** issue tracking and desktop release artifacts.
 
 Website: [www.geardex.app](https://www.geardex.app)
