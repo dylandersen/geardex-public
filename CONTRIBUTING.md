@@ -6,15 +6,23 @@ Thanks for helping improve GearDex.
 
 This repository is for public collaboration on:
 
-- Bug reports
-- Feature requests
-- Release feedback
+- Web app bug reports
+- macOS app bug reports
+- Feature requests (web app or macOS app)
+- macOS release feedback
 
 This repository is not used for open-source code contributions.
 
+## Issue Forms
+
+- Bug report (web or macOS): [Bug report form](https://github.com/dylandersen/geardex-public/issues/new?template=bug_report.yml)
+- Feature request: [Feature request form](https://github.com/dylandersen/geardex-public/issues/new?template=feature_request.yml)
+- Pre-release feedback (macOS builds): [Pre-release feedback form](https://github.com/dylandersen/geardex-public/issues/new?template=release_feedback.yml)
+
 ## Before Opening An Issue
 
-- Confirm you are on the latest app version available in Releases.
+- If reporting a web app issue, include the page URL and browser/version.
+- If reporting a macOS issue, confirm you are on the latest GearDex macOS version available in Releases.
 - Search existing issues to avoid duplicates.
 - Keep reports specific and reproducible.
 
@@ -22,8 +30,9 @@ This repository is not used for open-source code contributions.
 
 Please include:
 
-- Platform and version (macOS/Windows/Linux)
-- GearDex app version
+- Where it happens (web app, macOS app, or both)
+- For web app: browser and version, plus page URL
+- For macOS app: GearDex app version, macOS version, and Intel/Apple Silicon if known
 - Clear reproduction steps
 - Expected behavior
 - Actual behavior

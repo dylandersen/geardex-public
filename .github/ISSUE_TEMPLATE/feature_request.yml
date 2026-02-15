@@ -1,11 +1,21 @@
 name: Feature request
-description: Suggest an idea to improve GearDex
+description: Suggest an idea for the GearDex web app, macOS app, or both
 labels: [enhancement]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for sharing an idea. Tell us what problem this solves for GearDex users.
+        Thanks for sharing an idea. Tell us what problem this solves for GearDex users in the web app, macOS app, or both.
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Which surface is this for?
+      options:
+        - Web app (www.geardex.app)
+        - macOS app
+        - Both web app and macOS app
+    validations:
+      required: true
   - type: textarea
     id: problem
     attributes:

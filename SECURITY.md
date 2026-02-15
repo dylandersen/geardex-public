@@ -13,7 +13,7 @@ If private reporting is unavailable, open a minimal public issue asking for a se
 ## What To Include
 
 - Clear impact summary
-- Affected platform(s) and app version(s)
+- Affected surface(s) and version details (web app URL/build context, macOS app version, macOS version, and Mac chip if relevant)
 - Reproduction steps or proof of concept
 - Any mitigations or workarounds
 

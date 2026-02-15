@@ -1,23 +1,33 @@
 name: Bug report
-description: Report a reproducible problem with GearDex
+description: Report a reproducible issue in the GearDex web app, macOS app, or both
 labels: [bug]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a bug in GearDex. Please fill out the details below.
-  - type: input
-    id: app_version
+        Thanks for reporting a GearDex bug. This repository tracks issues for both the web app and macOS app, and also hosts official macOS releases.
+  - type: dropdown
+    id: surface
     attributes:
-      label: App version
-      placeholder: e.g. v0.9.0-beta.1
+      label: Where does this issue happen?
+      options:
+        - Web app (www.geardex.app)
+        - macOS app
+        - Both web app and macOS app
     validations:
       required: true
   - type: input
-    id: os
+    id: app_version
     attributes:
-      label: Operating system
-      placeholder: e.g. macOS 14.6, Windows 11, Ubuntu 24.04
+      label: App version/build (if known)
+      placeholder: e.g. macOS app v1.0.3, or web app context/date
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Environment details
+      placeholder: e.g. Safari 18.0 on macOS 15.2, or macOS 14.7 (Intel)
     validations:
       required: true
   - type: textarea

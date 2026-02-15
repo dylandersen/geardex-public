@@ -3,6 +3,15 @@ contact_links:
   - name: GearDex website
     url: https://www.geardex.app
     about: Visit the main GearDex website.
+  - name: Report a web or macOS issue
+    url: https://github.com/dylandersen/geardex-public/issues/new/choose
+    about: Open issue forms for web app and macOS app problems.
+  - name: GearDex support contact
+    url: https://www.geardex.app/contact
+    about: Contact GearDex support for account and general help.
+  - name: GearDex support email
+    url: mailto:geardex.help@gmail.com
+    about: Email GearDex support directly.
   - name: Security vulnerability report
     url: https://github.com/dylandersen/geardex-public/security/advisories/new
     about: Report security issues privately through GitHub advisories.
