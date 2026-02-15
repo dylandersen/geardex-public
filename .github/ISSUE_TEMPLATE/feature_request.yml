@@ -1,11 +1,11 @@
 name: Feature request
-description: Suggest an idea to improve Geardex
+description: Suggest an idea to improve GearDex
 labels: [enhancement]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for sharing an idea. Tell us what problem this solves.
+        Thanks for sharing an idea. Tell us what problem this solves for GearDex users.
   - type: textarea
     id: problem
     attributes:
@@ -17,7 +17,7 @@ body:
     id: proposal
     attributes:
       label: Proposed solution
-      description: What would you like Geardex to do?
+      description: What would you like GearDex to do?
     validations:
       required: true
   - type: textarea
@@ -33,3 +33,10 @@ body:
       label: Additional context
     validations:
       required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submit checklist
+      options:
+        - label: I searched for existing feature requests first.
+          required: true

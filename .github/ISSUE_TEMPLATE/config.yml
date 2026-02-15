@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+  - name: GearDex website
+    url: https://www.geardex.app
+    about: Visit the main GearDex website.
   - name: Security vulnerability report
     url: https://github.com/dylandersen/geardex-public/security/advisories/new
     about: Report security issues privately through GitHub advisories.
+  - name: Support guidance
+    url: https://github.com/dylandersen/geardex-public/blob/main/SUPPORT.md
+    about: Read support and issue-reporting guidance.

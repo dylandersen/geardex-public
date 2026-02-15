@@ -1,0 +1,43 @@
+name: Pre-release feedback
+description: Share feedback from a GearDex pre-release build
+labels: [feedback, prerelease]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing a GearDex pre-release. Share what worked and what did not.
+  - type: input
+    id: app_version
+    attributes:
+      label: Pre-release version
+      placeholder: e.g. v1.3.0-beta.1
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: e.g. macOS 15.0 / Windows 11 / Ubuntu 24.04
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feedback summary
+      description: Describe your overall experience with this pre-release.
+    validations:
+      required: true
+  - type: textarea
+    id: regressions
+    attributes:
+      label: Regressions or critical issues
+      description: List anything that was broken compared with prior versions.
+    validations:
+      required: false
+  - type: textarea
+    id: details
+    attributes:
+      label: Steps, logs, or screenshots
+      description: Provide reproducible steps and sanitized logs/screenshots.
+    validations:
+      required: false

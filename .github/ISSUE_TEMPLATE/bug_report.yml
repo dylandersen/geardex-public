@@ -1,11 +1,11 @@
 name: Bug report
-description: Report a reproducible problem with Geardex
+description: Report a reproducible problem with GearDex
 labels: [bug]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a bug. Please fill out the details below.
+        Thanks for reporting a bug in GearDex. Please fill out the details below.
   - type: input
     id: app_version
     attributes:
@@ -49,3 +49,12 @@ body:
       description: Paste logs or drag screenshots here if available.
     validations:
       required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submit checklist
+      options:
+        - label: I searched for existing issues first.
+          required: true
+        - label: I removed private or sensitive information from logs/screenshots.
+          required: true

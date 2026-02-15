@@ -2,8 +2,22 @@
 
 ## Reporting a Vulnerability
 
-Please do **not** open a public issue for security vulnerabilities.
+Please do **not** open public issues for security vulnerabilities.
 
-Use GitHub's private vulnerability reporting for this repository, or contact the maintainers privately.
+Use GitHub's private vulnerability reporting for this repository:
 
-If private reporting is unavailable, open a minimal issue asking for a secure contact channel without disclosing details.
+- [Private vulnerability report](https://github.com/dylandersen/geardex-public/security/advisories/new)
+
+If private reporting is unavailable, open a minimal public issue asking for a secure contact channel and do not include vulnerability details.
+
+## What To Include
+
+- Clear impact summary
+- Affected platform(s) and app version(s)
+- Reproduction steps or proof of concept
+- Any mitigations or workarounds
+
+## Response Expectations
+
+- Initial acknowledgement target: 3 business days
+- Follow-up cadence: as remediation progresses

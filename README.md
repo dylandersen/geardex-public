@@ -1,27 +1,29 @@
-# Geardex (Public)
+# GearDex Public Repository
 
-This repository is the public home for **Geardex** issue tracking and release artifacts.
+This repository is the public home for **GearDex** issue tracking and desktop release artifacts.
 
-## Source Code
+Website: [www.geardex.app](https://www.geardex.app)
 
-Geardex is currently closed-source. This repo intentionally does not contain application source code.
+## Purpose
 
-## What this repo is for
+Use this repository to:
 
-- Bug reports
-- Feature requests
-- Release binaries (including Electron pre-releases)
+- Report bugs
+- Request features
+- Access desktop app releases and pre-releases
 
-## Reporting issues
+## What Is Not In This Repo
 
-Please open an issue in this repository and include:
+This repository does not include:
 
-- OS and version
-- App version
-- Steps to reproduce
-- Expected behavior
-- Actual behavior
+- Proprietary application source code
+- Private infrastructure details
+- Internal implementation documentation
 
-## Security
+## How To Use This Repo
 
-Please do not report security issues publicly. See `SECURITY.md` for private reporting guidance.
+- Open a bug report: [Issues](https://github.com/dylandersen/geardex-public/issues/new/choose)
+- Review release notes and channels: `RELEASES.md`
+- Get support guidance: `SUPPORT.md`
+- Report vulnerabilities privately: `SECURITY.md`
+- Participation expectations: `CONTRIBUTING.md`
