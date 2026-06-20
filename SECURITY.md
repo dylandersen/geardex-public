@@ -1,23 +1,22 @@
 # Security Policy
 
-## Reporting a Vulnerability
+Please do not open public issues for vulnerabilities or exploit details.
 
-Please do **not** open public issues for security vulnerabilities.
+Use GitHub private vulnerability reporting:
 
-Use GitHub's private vulnerability reporting for this repository:
+- [Open a private vulnerability report](https://github.com/dylandersen/geardex-public/security/advisories/new)
 
-- [Private vulnerability report](https://github.com/dylandersen/geardex-public/security/advisories/new)
+If private reporting is unavailable, email `geardex.help@gmail.com` and ask for a private reporting channel. Do not include exploit details in a public GitHub issue.
 
-If private reporting is unavailable, open a minimal public issue asking for a secure contact channel and do not include vulnerability details.
+## Include
 
-## What To Include
-
-- Clear impact summary
-- Affected surface(s) and version details (web app URL/build context, macOS app version, macOS version, and Mac chip if relevant)
+- A concise impact summary
+- Affected surface: web app, macOS app, or both
+- Version details when relevant
 - Reproduction steps or proof of concept
-- Any mitigations or workarounds
+- Suggested mitigation, if known
 
-## Response Expectations
+## Response Target
 
-- Initial acknowledgement target: 3 business days
-- Follow-up cadence: as remediation progresses
+- Initial acknowledgement: 3 business days
+- Follow-up: as the report is triaged and remediated

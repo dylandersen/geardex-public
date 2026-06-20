@@ -1,11 +1,11 @@
 name: Bug report
 description: Report a reproducible issue in the GearDex web app, macOS app, or both
-labels: [bug]
+labels: [bug, "status:needs-triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a GearDex bug. This repository tracks issues for both the web app and macOS app, and also hosts official macOS releases.
+        Use this form for reproducible GearDex web app and macOS app problems. Remove private details from screenshots, logs, filenames, and copied text before submitting.
   - type: dropdown
     id: surface
     attributes:
@@ -19,15 +19,15 @@ body:
   - type: input
     id: app_version
     attributes:
-      label: App version/build (if known)
-      placeholder: e.g. macOS app v1.0.3, or web app context/date
+      label: GearDex version or build
+      placeholder: e.g. macOS app v1.0.5, or web app date if known
     validations:
       required: false
   - type: input
     id: environment
     attributes:
       label: Environment details
-      placeholder: e.g. Safari 18.0 on macOS 15.2, or macOS 14.7 (Intel)
+      placeholder: e.g. Safari 18 on macOS 15, or GearDex macOS app on Apple Silicon
     validations:
       required: true
   - type: textarea
@@ -56,7 +56,7 @@ body:
     id: logs
     attributes:
       label: Logs or screenshots
-      description: Paste logs or drag screenshots here if available.
+      description: Paste logs or drag screenshots only after removing private details.
     validations:
       required: false
   - type: checkboxes
@@ -66,5 +66,5 @@ body:
       options:
         - label: I searched for existing issues first.
           required: true
-        - label: I removed private or sensitive information from logs/screenshots.
+        - label: I removed private information from logs and screenshots.
           required: true

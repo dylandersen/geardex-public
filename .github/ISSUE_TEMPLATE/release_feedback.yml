@@ -1,11 +1,11 @@
 name: Pre-release feedback
 description: Share feedback from a GearDex macOS pre-release build
-labels: [feedback, prerelease]
+labels: [feedback, prerelease, "app:macOS", "status:needs-triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for testing a GearDex macOS pre-release. Share what worked and what did not.
+        Use this form for GearDex macOS pre-release feedback. Share what worked, what changed, and what needs attention.
         For web app issues, use the Bug report form instead.
   - type: input
     id: app_version
@@ -39,6 +39,6 @@ body:
     id: details
     attributes:
       label: Steps, logs, or screenshots
-      description: Provide reproducible steps and sanitized logs/screenshots.
+      description: Provide reproducible steps and logs or screenshots with private details removed.
     validations:
       required: false

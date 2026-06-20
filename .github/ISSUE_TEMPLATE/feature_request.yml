@@ -1,11 +1,11 @@
 name: Feature request
 description: Suggest an idea for the GearDex web app, macOS app, or both
-labels: [enhancement]
+labels: [enhancement, "status:needs-triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for sharing an idea. Tell us what problem this solves for GearDex users in the web app, macOS app, or both.
+        Use this form for product ideas, workflow gaps, and user-facing improvements.
   - type: dropdown
     id: surface
     attributes:
@@ -20,14 +20,14 @@ body:
     id: problem
     attributes:
       label: Problem statement
-      description: What pain point are you experiencing?
+      description: What workflow is harder than it should be?
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
-      label: Proposed solution
-      description: What would you like GearDex to do?
+      label: Desired outcome
+      description: What should GearDex help you accomplish?
     validations:
       required: true
   - type: textarea

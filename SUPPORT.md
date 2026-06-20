@@ -1,25 +1,47 @@
 # GearDex Support
 
-## Website
+## Primary Support
 
-- [www.geardex.app](https://www.geardex.app)
+- Website: [www.geardex.app](https://www.geardex.app)
+- Contact form: [www.geardex.app/contact](https://www.geardex.app/contact)
+- Email: `geardex.help@gmail.com`
 
-## Where To Ask For Help
+## Public Issue Tracking
 
-- General support or account questions: [www.geardex.app/contact](https://www.geardex.app/contact) or email `geardex.help@gmail.com`
-- Web app or macOS app bugs: open a bug issue in this repository
-- Feature ideas for web app or macOS app: open a feature request in this repository
-- Security concerns: use private vulnerability reporting (`SECURITY.md`)
+Use this repository for product issues that can be discussed publicly:
 
-## What To Include In Support Requests
+- [Bug report](https://github.com/dylandersen/geardex-public/issues/new?template=bug_report.yml)
+- [Feature request](https://github.com/dylandersen/geardex-public/issues/new?template=feature_request.yml)
+- [Pre-release feedback](https://github.com/dylandersen/geardex-public/issues/new?template=release_feedback.yml)
 
-- Where the issue occurs (web app, macOS app, or both)
-- For web app: browser and version, plus page URL
-- For macOS app: GearDex app version, macOS version, and Mac model/chip (Intel or Apple Silicon)
-- Steps already tried
-- Relevant screenshots or logs with personal/sensitive data removed
+Do not include account data, private customer names, client information, receipts, serial numbers, access links, or unredacted logs in public issues.
 
-## Response Expectations
+## What to Include
 
-- General support and issue triage: initial acknowledgement target is 3 business days
-- Security reports: see response expectations in `SECURITY.md`
+For web app issues:
+
+- Page URL
+- Browser and browser version
+- Operating system
+- Steps to reproduce
+- Expected and actual behavior
+
+For macOS app issues:
+
+- GearDex app version
+- macOS version
+- Apple Silicon or Intel
+- Steps to reproduce
+- Logs or screenshots with private details removed
+
+For feature requests:
+
+- The workflow you are trying to improve
+- What is difficult in GearDex today
+- The outcome you want
+
+## Response Targets
+
+- Public issue triage: initial acknowledgement target of 3 business days
+- Account and billing support: use the contact form or support email
+- Private vulnerability reports: see [SECURITY.md](SECURITY.md)

@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Local editor state
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Application source and package artifacts should not live in this public repo
+node_modules/
+dist/
+build/
+out/
+.next/
+coverage/
+*.tsbuildinfo
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Desktop release artifacts belong on GitHub Releases, not in git
+*.dmg
+*.zip
+*.blockmap
+*.AppImage
+*.exe
+*.msi
+*.pkg
+*.app
+latest*.yml
+
